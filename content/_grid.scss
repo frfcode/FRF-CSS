@@ -1,0 +1,105 @@
+/*------grid------*/
+@import 'root';
+
+.f{
+    &-container{
+    margin-right: auto;
+    margin-left: auto;
+    width: $porcent-100;
+    }
+    &-row{
+      flex-direction: row;
+      flex-wrap: wrap;
+      display: flex;
+      margin-right: 0.5%;
+      margin-left: 0.5%;
+    }
+    &-col-1 {
+      flex-basis: 7%;
+      max-width: 7%;
+      padding: 0 $pixel-5;
+    }
+
+    &-col-2 {
+      flex-basis: 15.4%;
+      max-width: 15.4%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-3 {
+      flex-basis: 23.5%;
+      max-width: 23.5%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-4 {
+      flex-basis: 32%;
+      max-width: 32%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-5 {
+      flex-basis: 41.667%;
+      max-width: 41.667%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-6 {
+      flex-basis: 48.5%;
+      max-width: 48.5%;
+      padding: 0 $pixel-5;
+    }
+
+    &-col-7 {
+      flex-basis: 58.333%;
+      max-width: 58.333%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-8{
+      flex-basis: 65.5%;
+      max-width: 65.5%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-9{
+      flex-basis: 65.5%;
+      max-width: 65.5%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-10{
+      flex-basis: 82%;
+      max-width: 82%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-11{
+      flex-basis: 90%;
+      max-width: 90%;
+      padding: 0 $pixel-5;
+      
+    }
+
+    &-col-12{
+      flex-basis: 100%;
+      max-width: 100%;
+      padding: 0 $pixel-5;
+      
+    }
+    &-justify-content-center{
+      justify-content: center;
+    }
+    
+    &-justify-content-end{
+      justify-content: end;
+    }
+}

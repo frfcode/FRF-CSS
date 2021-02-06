@@ -1,0 +1,167 @@
+
+@import 'root';
+
+@mixin fullWidth {
+    width: $porcent-100;
+}
+
+@mixin mediaWidth {
+    width: $porcent-50;
+}
+
+@mixin smallwidth {
+    width: $porcent-25;
+}
+
+@mixin extrasmallwidth {
+    width: $porcent-15;
+}
+
+@mixin smallextrasmall {
+    width: $porcent-5;
+}
+
+
+@mixin events {
+    &-active{
+        display: $block;
+    }
+    &-inactive{
+        display: $none;
+    }
+    &-opacity-full{
+        opacity: $op-1;
+    }
+    &-opacity-half{
+        opacity: $op-0-50;
+    }
+    &-opacity-third{
+        opacity: $op-0-25;
+    }
+    &-opacity-none{
+        opacity: 0;
+    }
+}
+
+@mixin headerfooter {
+    &-auto{
+        padding: $pixel-10;
+        height: max-content;
+    }
+    &-50{
+        padding: $pixel-10;
+        height: $pixel-50;
+    }
+    &-100{
+        padding: $pixel-10;
+        height: $pixel-100;
+    }
+    &-150{
+        padding: $pixel-10;
+        height: $pixel-150;
+    }
+    &-200{
+        padding: $pixel-10;
+        height: $pixel-200;
+    }
+    &-300{
+        padding: $pixel-10;
+        height: $pixel-300;
+    }
+}
+
+
+@mixin menu_dropdown($direction,$color) {
+    background: $color;
+    & nav{
+        text-align: $direction;
+    }
+        & nav .wizzle-menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            & li{
+                text-align: center;
+                list-style: none;
+                & a{
+                    color: white;
+                    padding: 15px;
+                    display: block;
+                    & img{
+                        height: 30px;
+                        width: 30px;
+                        margin-right: 0.3em;
+                    }
+                    & span{
+                        position: relative;
+                        top: -10%;
+                    }
+                }
+            }
+            & li:hover .wizzle-dropdown{
+                display: grid;
+                list-style: none;
+                z-index: 1;
+                background:black;
+            }
+
+            & li:hover .wizzle-dropdown li a{
+                background:black;
+               
+            }
+        }
+}
+
+
+@mixin menu($direction, $flexdirection, $color) {
+    background: $color;
+    padding: 5px 10px 5px 10px; 
+    & nav {
+        text-align: $direction;
+    }
+    & nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: $flexdirection;
+        & li{
+            & span svg{
+                width: 35px;
+            }              
+            & a{
+                color: white;
+                padding: 0.5em;
+                display: block;
+                &:hover{
+                    background: #4E554E;
+                }
+                & img{
+                    height: 30px;
+                    width: 30px;
+                    margin-right: 0.3em;
+                }
+                & span{
+                    position: relative;
+                    top: -5px;
+                }
+            }
+        }
+    }
+}
+
+
+@mixin box-shadow($pixel,$color) {
+    -webkit-box-shadow: $pixel $color;
+    -moz-box-shadow: $pixel $color;
+    box-shadow: $pixel $color;
+  }
+
+@mixin button {
+    padding: $pixel-5 $pixel-10;
+    border: 2px solid transparent;
+    cursor: pointer;
+    background: $defualt-black;
+    text-decoration: $none;
+    color: $defualt-white;
+}

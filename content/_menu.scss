@@ -1,0 +1,65 @@
+/*------menu------*/
+@import 'variable';
+
+.wizzle-dropdown{
+    display: none;
+    position: absolute;                       
+}
+.wizzle-menu{
+    /*___MENU DEFAULT___*/
+    &-default{
+        @include menu(left,end,linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-right{
+        @include menu(right,flex-end,linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-center{
+        @include menu(center,center,linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    /*___MENU ROUNDED DEFAULT___*/
+    &-default-rounded{
+        @include menu_rounded(left, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-right-rounded{
+        @include menu_rounded(right, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-center-rounded{
+        @include menu_rounded(center, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    /*___DROPDOWN___*/
+    &-dropdown-default{
+        @include menu_dropdown(left, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-dropdown-center{
+        @include menu_dropdown(center, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    &-dropdown-right{
+        @include menu_dropdown(right, linear-gradient(to bottom, #333333 0%, #141414 100%));
+    }
+    /*___MENU BACKFROUNDS___*/
+    &-bg-blue{
+        @include menu_bg(#2B79DE,#19539F, white, white);
+    }
+    &-bg-red{
+        @include menu_bg(#C42408,#EB2C0A, white, white);
+    }
+    &-bg-yellow{
+        @include menu_bg(#B8AB00,#FFF347, black, white);
+    }
+    &-bg-orange{
+        @include menu_bg(#FF5B00,#FF8847, white, white);
+    }
+    &-bg-purple{
+        @include menu_bg(#8E2DE2,#B26FEB, white, white);
+    }
+    &-bg-brown{
+        @include menu_bg(#B47541,#C99469, white, white);
+    }
+    &-bg-white{
+        @include menu_bg(#EBEBEB,#fff, black, black); 
+    }
+}
+
+#wizzle-button-mobile{
+    display: none;
+}

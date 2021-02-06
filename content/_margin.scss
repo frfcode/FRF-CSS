@@ -1,0 +1,36 @@
+/*------margin------*/
+@import 'root';
+
+.f-margin{
+    &-reset{
+        margin: 0;
+    }
+    @for $i from 1 through 5 {
+        &-top-#{$i}{
+            margin-top: #{$i}em;
+        }
+    }
+
+    @for $i from 1 through 5 {
+        &-bottom-#{$i}{
+           margin-bottom: #{$i}em;
+        }
+    }
+
+    @for $i from 1 through 5 {
+        &-left-#{$i}{
+            margin-left: #{$i}em;
+        }
+    }
+
+    @for $i from 1 through 5 {
+        &-right-#{$i}{
+            margin-right: #{$i}em;
+        }
+    }
+    
+    &-center{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

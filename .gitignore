@@ -1,4 +1,5 @@
 frf.scss
 frf.css.map
 frf.css
-content
+content/dist
+content/ignore

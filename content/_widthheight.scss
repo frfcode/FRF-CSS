@@ -1,0 +1,35 @@
+/*-------width|height-------*/
+@import 'root';
+
+.f-width{
+    &-full{
+        width: $porcent-100;
+    }
+    &-medium{
+        width: $porcent-50;
+    }
+    &-small{
+        width: $porcent-25;
+    }
+    &-extrasmall{
+        width: $porcent-15;
+    }
+}
+
+.f-element-pixel{
+    &-#{$pixel-300}{
+        width: $pixel-300;
+    }
+    &-#{$pixel-150}{
+        width: $pixel-150;
+    }
+    &-#{$pixel-100}{
+        width: $pixel-100;
+    }
+    &-#{$pixel-50}{
+        width: $pixel-50;
+    }
+    &-#{$pixel-25}{
+        width: $pixel-25;
+    }
+}

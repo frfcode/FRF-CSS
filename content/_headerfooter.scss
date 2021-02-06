@@ -1,0 +1,9 @@
+/*------header|footer------*/
+@import 'functions';
+
+.f-header{
+    @include headerfooter;
+}
+.f-footer{
+    @include headerfooter;
+}
