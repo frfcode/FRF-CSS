@@ -1,0 +1,81 @@
+/*------colors------*/
+@import 'functions';
+
+.f-button-color{
+    &-success{
+        background: $color-success;
+        color: $defualt-white;
+    }
+    &-success:hover{
+        background: $color-success-hover;
+        color: $defualt-white;
+    }
+    &-success:active{
+        background: $color-success-active;
+        color: $defualt-white;
+    }
+    
+    &-danger{
+        background: $color-danger;
+        color: $defualt-white;
+    }
+    &-danger:hover{
+        background: $color-danger-hover;
+        color: $defualt-white;
+    }
+    &-danger:active{
+        background: $color-danger-active;
+        color: $defualt-white;
+    }
+
+    &-warning{
+        background: $color-warning;
+        color: $defualt-white;
+    }
+    &-warning:hover{
+        background: $color-warning-hover;
+        color: $defualt-white;
+    }
+    &-warning:active{
+        background: $color-warning-active;
+        color: $defualt-white;
+    }
+}
+.f-text{
+    &-success{
+        background: $color-success;
+    }
+    &-danger{
+        background: $color-danger;
+    }
+    &-warning{
+        background: $color-warning;
+    }
+}
+
+.f-background{
+    &-success{
+        background: $color-success;
+    }
+    &-danger{
+        background: $color-danger;
+    }
+    &-warning{
+        background: $color-warning;
+    }
+}
+
+.f-border{
+    &-success{
+        border: 1px solid $color-success;
+    }
+    &-danger{
+        border: 1px solid $color-danger;
+    }
+    &-warning{
+        border: 1px solid  $color-warning;
+    }
+    &-reset{
+        border: none;
+    }
+}

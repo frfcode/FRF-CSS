@@ -1,4 +1,4 @@
-/*-------width|height-------*/
+/*-------width and height-------*/
 @import 'root';
 
 .f-width{
@@ -12,24 +12,27 @@
         width: $porcent-25;
     }
     &-extrasmall{
-        width: $porcent-15;
+        width: $porcent-15
+    }
+    &-smallextrasmall{
+        width: $porcent-5;
     }
 }
 
-.f-element-pixel{
-    &-#{$pixel-300}{
-        width: $pixel-300;
+.f-element-height{
+    @for $i from 15 to 200 {
+        @if $i%5==0
+        &-pixel-#{$i}{
+            height: #{$i}px;
+        }
     }
-    &-#{$pixel-150}{
-        width: $pixel-150;
-    }
-    &-#{$pixel-100}{
-        width: $pixel-100;
-    }
-    &-#{$pixel-50}{
-        width: $pixel-50;
-    }
-    &-#{$pixel-25}{
-        width: $pixel-25;
+}
+
+.f-element-width{
+    @for $i from 10 to 200 {
+        @if $i%5==0
+        &-pixel-#{$i}{
+            height: #{$i}px;
+        }
     }
 }

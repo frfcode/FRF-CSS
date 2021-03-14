@@ -5,32 +5,24 @@
     &-reset{
         margin: 0;
     }
-    @for $i from 1 through 5 {
+    @for $i from 1 through 10 {
         &-top-#{$i}{
-            margin-top: #{$i}em;
+            padding-top:percentage($i/100);
         }
-    }
-
-    @for $i from 1 through 5 {
         &-bottom-#{$i}{
-           margin-bottom: #{$i}em;
+            padding-top:percentage($i/100);
         }
-    }
-
-    @for $i from 1 through 5 {
         &-left-#{$i}{
-            margin-left: #{$i}em;
+            padding-top:percentage($i/100);
         }
-    }
-
-    @for $i from 1 through 5 {
         &-right-#{$i}{
-            margin-right: #{$i}em;
+            padding-top:percentage($i/100);
         }
     }
-    
     &-center{
         margin-right: auto;
         margin-left: auto;
+        margin-top: auto;
+        margin-right: auto;
     }
 }

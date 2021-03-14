@@ -34,7 +34,7 @@
 .f-button-style-7{
     @include button;
     border-radius: $pixel-2;
-    box-shadow: 0 7px #999;
+    box-shadow: box-shadow(0 7px, #999);
 }
 .f-button-style-8{
     @include button;
@@ -55,72 +55,21 @@
     border-top-right-radius: 15px;
 }
 .f-button-default:hover{
-    background-color: #525252;
+    background-color: $defualt-black-hover;
 }
 .f-button-default:active{
-    background-color: #1F1F1F;
+    background-color: $defualt-black-active;
 }
 @for $i from 1 to 12 {
     .f-button-style-#{$i}:hover{
-        background-color: #525252;
+        background-color: $defualt-black-hover;
     }
     .f-button-style-#{$i}:active{
-        background-color: #1F1F1F;
+        background-color: $defualt-black-active;
     }
 }
 .f-button-style-7:active{
-    background-color: #1F1F1F;
-    box-shadow: 0 4px #777;
+    background-color: $defualt-black-active;
+    box-shadow: box-shadow(0 4px, #777);
     transform: translateY(4px);
-  }
-/*------buttons------*/
-/* .wizzle-button{
-    padding: 5px;
-    border: transparent;
-    cursor: pointer;
-    background: #E7E7E7;
-    border-radius: 2px;
-    text-decoration: none;
-    &:hover{
-        background: linear-gradient(to top, #E9E4F0, #D3CCE3);
-        
-    }
-    &-width-full{
-        width: $porcent-full;
-        @include buttonInputReset;
-        cursor: pointer;
-        &:hover{
-            background: #CCCCCC;
-            border: 1px solid $color-dark;
-        }
-    }
-    &-width-medium{
-        width: $porcent-half;
-        @include buttonInputReset;
-        cursor: pointer;
-        &:hover{
-            background: #CCCCCC;
-            border: 1px solid $color-dark;
-        }
-    }
-
-    &-width-small{
-        width: $porcent-third;
-        @include buttonInputReset;
-        cursor: pointer;
-        &:hover{
-            background: #CCCCCC;
-            border: 1px solid $color-dark;
-        }
-    }
-
-    &-width-extrasmall{
-        width: $porcent-extra;
-        @include buttonInputReset;
-        cursor: pointer;
-        &:hover{
-            background: #CCCCCC;
-            border: 1px solid $color-dark;
-        }
-    }
-} */
+}

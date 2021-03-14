@@ -10,9 +10,9 @@
     &-weight-bold{
         font-weight: $weight-bold;  
     }
-@for $i from 1 through 50 {
-    &-size-#{$i} {
-        font-size: #{$i}px;
+    @for $i from 1 through 50 {
+        &-size-#{$i} {
+            font-size: #{$i}px;
+        }
     }
-}
 }

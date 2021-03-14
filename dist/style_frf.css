@@ -19,11 +19,11 @@ input[type=number] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 textarea {
@@ -31,47 +31,39 @@ textarea {
   border: 1px solid #333;
 }
 
-/*------colors------*/
+/*------image------*/
 .f-button-color-success {
   background: #3A7E55;
   color: #fff;
 }
-
 .f-button-color-success:hover {
   background: #4DA871;
   color: #fff;
 }
-
 .f-button-color-success:active {
   background: #2D6242;
   color: #fff;
 }
-
 .f-button-color-danger {
   background: #B2061D;
   color: #fff;
 }
-
 .f-button-color-danger:hover {
   background: #D90824;
   color: #fff;
 }
-
 .f-button-color-danger:active {
   background: #760413;
   color: #fff;
 }
-
 .f-button-color-warning {
   background: #FBC40E;
   color: #fff;
 }
-
 .f-button-color-warning:hover {
   background: #FCD34A;
   color: #fff;
 }
-
 .f-button-color-warning:active {
   background: #C99B03;
   color: #fff;
@@ -80,11 +72,9 @@ textarea {
 .f-text-success {
   background: #3A7E55;
 }
-
 .f-text-danger {
   background: #B2061D;
 }
-
 .f-text-warning {
   background: #FBC40E;
 }
@@ -92,11 +82,9 @@ textarea {
 .f-background-success {
   background: #3A7E55;
 }
-
 .f-background-danger {
   background: #B2061D;
 }
-
 .f-background-warning {
   background: #FBC40E;
 }
@@ -104,15 +92,12 @@ textarea {
 .f-border-success {
   border: 1px solid #3A7E55;
 }
-
 .f-border-danger {
   border: 1px solid #B2061D;
 }
-
 .f-border-warning {
   border: 1px solid #FBC40E;
 }
-
 .f-border-reset {
   border: none;
 }
@@ -120,46 +105,36 @@ textarea {
 /*------header|footer------*/
 .f-header-auto {
   padding: 10px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
-
 .f-header-50 {
   padding: 10px;
   height: 50px;
 }
-
 .f-header-100 {
   padding: 10px;
   height: 100px;
 }
-
 .f-header-150 {
   padding: 10px;
   height: 150px;
 }
-
 .f-header-200 {
   padding: 10px;
   height: 200px;
 }
-
 .f-header-250 {
   padding: 10px;
   height: 250px;
 }
-
 .f-header-300 {
   padding: 10px;
   height: 300px;
 }
-
 .f-header-350 {
   padding: 10px;
   height: 350px;
 }
-
 .f-header-400 {
   padding: 10px;
   height: 400px;
@@ -167,46 +142,36 @@ textarea {
 
 .f-footer-auto {
   padding: 10px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
-
 .f-footer-50 {
   padding: 10px;
   height: 50px;
 }
-
 .f-footer-100 {
   padding: 10px;
   height: 100px;
 }
-
 .f-footer-150 {
   padding: 10px;
   height: 150px;
 }
-
 .f-footer-200 {
   padding: 10px;
   height: 200px;
 }
-
 .f-footer-250 {
   padding: 10px;
   height: 250px;
 }
-
 .f-footer-300 {
   padding: 10px;
   height: 300px;
 }
-
 .f-footer-350 {
   padding: 10px;
   height: 350px;
 }
-
 .f-footer-400 {
   padding: 10px;
   height: 400px;
@@ -216,219 +181,165 @@ textarea {
 .f-text-left {
   text-align: left;
 }
-
 .f-text-right {
   text-align: right;
 }
-
 .f-text-center {
   text-align: center;
 }
-
 .f-text-justify {
   text-align: justify;
 }
-
 .f-text-weight-bold {
   font-weight: bold;
 }
-
 .f-text-size-1 {
   font-size: 1px;
 }
-
 .f-text-size-2 {
   font-size: 2px;
 }
-
 .f-text-size-3 {
   font-size: 3px;
 }
-
 .f-text-size-4 {
   font-size: 4px;
 }
-
 .f-text-size-5 {
   font-size: 5px;
 }
-
 .f-text-size-6 {
   font-size: 6px;
 }
-
 .f-text-size-7 {
   font-size: 7px;
 }
-
 .f-text-size-8 {
   font-size: 8px;
 }
-
 .f-text-size-9 {
   font-size: 9px;
 }
-
 .f-text-size-10 {
   font-size: 10px;
 }
-
 .f-text-size-11 {
   font-size: 11px;
 }
-
 .f-text-size-12 {
   font-size: 12px;
 }
-
 .f-text-size-13 {
   font-size: 13px;
 }
-
 .f-text-size-14 {
   font-size: 14px;
 }
-
 .f-text-size-15 {
   font-size: 15px;
 }
-
 .f-text-size-16 {
   font-size: 16px;
 }
-
 .f-text-size-17 {
   font-size: 17px;
 }
-
 .f-text-size-18 {
   font-size: 18px;
 }
-
 .f-text-size-19 {
   font-size: 19px;
 }
-
 .f-text-size-20 {
   font-size: 20px;
 }
-
 .f-text-size-21 {
   font-size: 21px;
 }
-
 .f-text-size-22 {
   font-size: 22px;
 }
-
 .f-text-size-23 {
   font-size: 23px;
 }
-
 .f-text-size-24 {
   font-size: 24px;
 }
-
 .f-text-size-25 {
   font-size: 25px;
 }
-
 .f-text-size-26 {
   font-size: 26px;
 }
-
 .f-text-size-27 {
   font-size: 27px;
 }
-
 .f-text-size-28 {
   font-size: 28px;
 }
-
 .f-text-size-29 {
   font-size: 29px;
 }
-
 .f-text-size-30 {
   font-size: 30px;
 }
-
 .f-text-size-31 {
   font-size: 31px;
 }
-
 .f-text-size-32 {
   font-size: 32px;
 }
-
 .f-text-size-33 {
   font-size: 33px;
 }
-
 .f-text-size-34 {
   font-size: 34px;
 }
-
 .f-text-size-35 {
   font-size: 35px;
 }
-
 .f-text-size-36 {
   font-size: 36px;
 }
-
 .f-text-size-37 {
   font-size: 37px;
 }
-
 .f-text-size-38 {
   font-size: 38px;
 }
-
 .f-text-size-39 {
   font-size: 39px;
 }
-
 .f-text-size-40 {
   font-size: 40px;
 }
-
 .f-text-size-41 {
   font-size: 41px;
 }
-
 .f-text-size-42 {
   font-size: 42px;
 }
-
 .f-text-size-43 {
   font-size: 43px;
 }
-
 .f-text-size-44 {
   font-size: 44px;
 }
-
 .f-text-size-45 {
   font-size: 45px;
 }
-
 .f-text-size-46 {
   font-size: 46px;
 }
-
 .f-text-size-47 {
   font-size: 47px;
 }
-
 .f-text-size-48 {
   font-size: 48px;
 }
-
 .f-text-size-49 {
   font-size: 49px;
 }
-
 .f-text-size-50 {
   font-size: 50px;
 }
@@ -515,8 +426,7 @@ textarea {
   text-decoration: none;
   color: #fff;
   border-radius: 2px;
-  -webkit-box-shadow: box-shadow(0 7px, #999);
-          box-shadow: box-shadow(0 7px, #999);
+  box-shadow: box-shadow(0 7px, #999);
 }
 
 .f-button-style-8 {
@@ -659,10 +569,8 @@ textarea {
 
 .f-button-style-7:active {
   background-color: #1F1F1F;
-  -webkit-box-shadow: box-shadow(0 4px, #777);
-          box-shadow: box-shadow(0 4px, #777);
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  box-shadow: box-shadow(0 4px, #777);
+  transform: translateY(4px);
 }
 
 /*------grid------*/
@@ -671,282 +579,204 @@ textarea {
   margin-left: auto;
   width: 100%;
 }
-
 .f-row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
   display: flex;
   margin-right: 0.5%;
   margin-left: 0.5%;
 }
-
 .f-col-1 {
-  -ms-flex-preferred-size: 7%;
-      flex-basis: 7%;
+  flex-basis: 7%;
   max-width: 7%;
   padding: 0 5px;
 }
-
 .f-col-2 {
-  -ms-flex-preferred-size: 15.4%;
-      flex-basis: 15.4%;
+  flex-basis: 15.4%;
   max-width: 15.4%;
   padding: 0 5px;
 }
-
 .f-col-3 {
-  -ms-flex-preferred-size: 23.5%;
-      flex-basis: 23.5%;
+  flex-basis: 23.5%;
   max-width: 23.5%;
   padding: 0 5px;
 }
-
 .f-col-4 {
-  -ms-flex-preferred-size: 32%;
-      flex-basis: 32%;
+  flex-basis: 32%;
   max-width: 32%;
   padding: 0 5px;
 }
-
 .f-col-5 {
-  -ms-flex-preferred-size: 41.667%;
-      flex-basis: 41.667%;
+  flex-basis: 41.667%;
   max-width: 41.667%;
   padding: 0 5px;
 }
-
 .f-col-6 {
-  -ms-flex-preferred-size: 48.5%;
-      flex-basis: 48.5%;
+  flex-basis: 48.5%;
   max-width: 48.5%;
   padding: 0 5px;
 }
-
 .f-col-7 {
-  -ms-flex-preferred-size: 58.333%;
-      flex-basis: 58.333%;
+  flex-basis: 58.333%;
   max-width: 58.333%;
   padding: 0 5px;
 }
-
 .f-col-8 {
-  -ms-flex-preferred-size: 65.5%;
-      flex-basis: 65.5%;
+  flex-basis: 65.5%;
   max-width: 65.5%;
   padding: 0 5px;
 }
-
 .f-col-9 {
-  -ms-flex-preferred-size: 65.5%;
-      flex-basis: 65.5%;
+  flex-basis: 65.5%;
   max-width: 65.5%;
   padding: 0 5px;
 }
-
 .f-col-10 {
-  -ms-flex-preferred-size: 82%;
-      flex-basis: 82%;
+  flex-basis: 82%;
   max-width: 82%;
   padding: 0 5px;
 }
-
 .f-col-11 {
-  -ms-flex-preferred-size: 90%;
-      flex-basis: 90%;
+  flex-basis: 90%;
   max-width: 90%;
   padding: 0 5px;
 }
-
 .f-col-12 {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   max-width: 100%;
   padding: 0 5px;
 }
-
 .f-justify-content-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .f-justify-content-end {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
 }
 
 /*------margin------*/
 .f-margin-reset {
   margin: 0;
 }
-
 .f-margin-top-1 {
   padding-top: 1%;
 }
-
 .f-margin-bottom-1 {
   padding-top: 1%;
 }
-
 .f-margin-left-1 {
   padding-top: 1%;
 }
-
 .f-margin-right-1 {
   padding-top: 1%;
 }
-
 .f-margin-top-2 {
   padding-top: 2%;
 }
-
 .f-margin-bottom-2 {
   padding-top: 2%;
 }
-
 .f-margin-left-2 {
   padding-top: 2%;
 }
-
 .f-margin-right-2 {
   padding-top: 2%;
 }
-
 .f-margin-top-3 {
   padding-top: 3%;
 }
-
 .f-margin-bottom-3 {
   padding-top: 3%;
 }
-
 .f-margin-left-3 {
   padding-top: 3%;
 }
-
 .f-margin-right-3 {
   padding-top: 3%;
 }
-
 .f-margin-top-4 {
   padding-top: 4%;
 }
-
 .f-margin-bottom-4 {
   padding-top: 4%;
 }
-
 .f-margin-left-4 {
   padding-top: 4%;
 }
-
 .f-margin-right-4 {
   padding-top: 4%;
 }
-
 .f-margin-top-5 {
   padding-top: 5%;
 }
-
 .f-margin-bottom-5 {
   padding-top: 5%;
 }
-
 .f-margin-left-5 {
   padding-top: 5%;
 }
-
 .f-margin-right-5 {
   padding-top: 5%;
 }
-
 .f-margin-top-6 {
   padding-top: 6%;
 }
-
 .f-margin-bottom-6 {
   padding-top: 6%;
 }
-
 .f-margin-left-6 {
   padding-top: 6%;
 }
-
 .f-margin-right-6 {
   padding-top: 6%;
 }
-
 .f-margin-top-7 {
   padding-top: 7%;
 }
-
 .f-margin-bottom-7 {
   padding-top: 7%;
 }
-
 .f-margin-left-7 {
   padding-top: 7%;
 }
-
 .f-margin-right-7 {
   padding-top: 7%;
 }
-
 .f-margin-top-8 {
   padding-top: 8%;
 }
-
 .f-margin-bottom-8 {
   padding-top: 8%;
 }
-
 .f-margin-left-8 {
   padding-top: 8%;
 }
-
 .f-margin-right-8 {
   padding-top: 8%;
 }
-
 .f-margin-top-9 {
   padding-top: 9%;
 }
-
 .f-margin-bottom-9 {
   padding-top: 9%;
 }
-
 .f-margin-left-9 {
   padding-top: 9%;
 }
-
 .f-margin-right-9 {
   padding-top: 9%;
 }
-
 .f-margin-top-10 {
   padding-top: 10%;
 }
-
 .f-margin-bottom-10 {
   padding-top: 10%;
 }
-
 .f-margin-left-10 {
   padding-top: 10%;
 }
-
 .f-margin-right-10 {
   padding-top: 10%;
 }
-
 .f-margin-center {
   margin-right: auto;
   margin-left: auto;
@@ -954,408 +784,22 @@ textarea {
   margin-right: auto;
 }
 
-/*-------width and height-------*/
-.f-width-full {
+/*-------width|height-------*/
+.f-element-width-full {
   width: 100%;
 }
-
-.f-width-medium {
+.f-element-width-medium {
   width: 50%;
 }
-
-.f-width-small {
+.f-element-width-small {
   width: 25%;
 }
-
-.f-width-extrasmall {
+.f-element-width-extrasmall {
   width: 15%;
 }
-
-.f-width-smallextrasmall {
+.f-element-width-smallextrasmall {
   width: 5%;
-}
-
-.f-element-height {
-  height: 15px;
-  height: 16px;
-  height: 17px;
-  height: 18px;
-  height: 19px;
-  height: 20px;
-  height: 21px;
-  height: 22px;
-  height: 23px;
-  height: 24px;
-  height: 25px;
-  height: 26px;
-  height: 27px;
-  height: 28px;
-  height: 29px;
-  height: 30px;
-  height: 31px;
-  height: 32px;
-  height: 33px;
-  height: 34px;
-  height: 35px;
-  height: 36px;
-  height: 37px;
-  height: 38px;
-  height: 39px;
-  height: 40px;
-  height: 41px;
-  height: 42px;
-  height: 43px;
-  height: 44px;
-  height: 45px;
-  height: 46px;
-  height: 47px;
-  height: 48px;
-  height: 49px;
-  height: 50px;
-  height: 51px;
-  height: 52px;
-  height: 53px;
-  height: 54px;
-  height: 55px;
-  height: 56px;
-  height: 57px;
-  height: 58px;
-  height: 59px;
-  height: 60px;
-  height: 61px;
-  height: 62px;
-  height: 63px;
-  height: 64px;
-  height: 65px;
-  height: 66px;
-  height: 67px;
-  height: 68px;
-  height: 69px;
-  height: 70px;
-  height: 71px;
-  height: 72px;
-  height: 73px;
-  height: 74px;
-  height: 75px;
-  height: 76px;
-  height: 77px;
-  height: 78px;
-  height: 79px;
-  height: 80px;
-  height: 81px;
-  height: 82px;
-  height: 83px;
-  height: 84px;
-  height: 85px;
-  height: 86px;
-  height: 87px;
-  height: 88px;
-  height: 89px;
-  height: 90px;
-  height: 91px;
-  height: 92px;
-  height: 93px;
-  height: 94px;
-  height: 95px;
-  height: 96px;
-  height: 97px;
-  height: 98px;
-  height: 99px;
-  height: 100px;
-  height: 101px;
-  height: 102px;
-  height: 103px;
-  height: 104px;
-  height: 105px;
-  height: 106px;
-  height: 107px;
-  height: 108px;
-  height: 109px;
-  height: 110px;
-  height: 111px;
-  height: 112px;
-  height: 113px;
-  height: 114px;
-  height: 115px;
-  height: 116px;
-  height: 117px;
-  height: 118px;
-  height: 119px;
-  height: 120px;
-  height: 121px;
-  height: 122px;
-  height: 123px;
-  height: 124px;
-  height: 125px;
-  height: 126px;
-  height: 127px;
-  height: 128px;
-  height: 129px;
-  height: 130px;
-  height: 131px;
-  height: 132px;
-  height: 133px;
-  height: 134px;
-  height: 135px;
-  height: 136px;
-  height: 137px;
-  height: 138px;
-  height: 139px;
-  height: 140px;
-  height: 141px;
-  height: 142px;
-  height: 143px;
-  height: 144px;
-  height: 145px;
-  height: 146px;
-  height: 147px;
-  height: 148px;
-  height: 149px;
-  height: 150px;
-  height: 151px;
-  height: 152px;
-  height: 153px;
-  height: 154px;
-  height: 155px;
-  height: 156px;
-  height: 157px;
-  height: 158px;
-  height: 159px;
-  height: 160px;
-  height: 161px;
-  height: 162px;
-  height: 163px;
-  height: 164px;
-  height: 165px;
-  height: 166px;
-  height: 167px;
-  height: 168px;
-  height: 169px;
-  height: 170px;
-  height: 171px;
-  height: 172px;
-  height: 173px;
-  height: 174px;
-  height: 175px;
-  height: 176px;
-  height: 177px;
-  height: 178px;
-  height: 179px;
-  height: 180px;
-  height: 181px;
-  height: 182px;
-  height: 183px;
-  height: 184px;
-  height: 185px;
-  height: 186px;
-  height: 187px;
-  height: 188px;
-  height: 189px;
-  height: 190px;
-  height: 191px;
-  height: 192px;
-  height: 193px;
-  height: 194px;
-  height: 195px;
-  height: 196px;
-  height: 197px;
-  height: 198px;
-  height: 199px;
-}
-
-.f-element-width {
-  height: 10px;
-  height: 11px;
-  height: 12px;
-  height: 13px;
-  height: 14px;
-  height: 15px;
-  height: 16px;
-  height: 17px;
-  height: 18px;
-  height: 19px;
-  height: 20px;
-  height: 21px;
-  height: 22px;
-  height: 23px;
-  height: 24px;
-  height: 25px;
-  height: 26px;
-  height: 27px;
-  height: 28px;
-  height: 29px;
-  height: 30px;
-  height: 31px;
-  height: 32px;
-  height: 33px;
-  height: 34px;
-  height: 35px;
-  height: 36px;
-  height: 37px;
-  height: 38px;
-  height: 39px;
-  height: 40px;
-  height: 41px;
-  height: 42px;
-  height: 43px;
-  height: 44px;
-  height: 45px;
-  height: 46px;
-  height: 47px;
-  height: 48px;
-  height: 49px;
-  height: 50px;
-  height: 51px;
-  height: 52px;
-  height: 53px;
-  height: 54px;
-  height: 55px;
-  height: 56px;
-  height: 57px;
-  height: 58px;
-  height: 59px;
-  height: 60px;
-  height: 61px;
-  height: 62px;
-  height: 63px;
-  height: 64px;
-  height: 65px;
-  height: 66px;
-  height: 67px;
-  height: 68px;
-  height: 69px;
-  height: 70px;
-  height: 71px;
-  height: 72px;
-  height: 73px;
-  height: 74px;
-  height: 75px;
-  height: 76px;
-  height: 77px;
-  height: 78px;
-  height: 79px;
-  height: 80px;
-  height: 81px;
-  height: 82px;
-  height: 83px;
-  height: 84px;
-  height: 85px;
-  height: 86px;
-  height: 87px;
-  height: 88px;
-  height: 89px;
-  height: 90px;
-  height: 91px;
-  height: 92px;
-  height: 93px;
-  height: 94px;
-  height: 95px;
-  height: 96px;
-  height: 97px;
-  height: 98px;
-  height: 99px;
-  height: 100px;
-  height: 101px;
-  height: 102px;
-  height: 103px;
-  height: 104px;
-  height: 105px;
-  height: 106px;
-  height: 107px;
-  height: 108px;
-  height: 109px;
-  height: 110px;
-  height: 111px;
-  height: 112px;
-  height: 113px;
-  height: 114px;
-  height: 115px;
-  height: 116px;
-  height: 117px;
-  height: 118px;
-  height: 119px;
-  height: 120px;
-  height: 121px;
-  height: 122px;
-  height: 123px;
-  height: 124px;
-  height: 125px;
-  height: 126px;
-  height: 127px;
-  height: 128px;
-  height: 129px;
-  height: 130px;
-  height: 131px;
-  height: 132px;
-  height: 133px;
-  height: 134px;
-  height: 135px;
-  height: 136px;
-  height: 137px;
-  height: 138px;
-  height: 139px;
-  height: 140px;
-  height: 141px;
-  height: 142px;
-  height: 143px;
-  height: 144px;
-  height: 145px;
-  height: 146px;
-  height: 147px;
-  height: 148px;
-  height: 149px;
-  height: 150px;
-  height: 151px;
-  height: 152px;
-  height: 153px;
-  height: 154px;
-  height: 155px;
-  height: 156px;
-  height: 157px;
-  height: 158px;
-  height: 159px;
-  height: 160px;
-  height: 161px;
-  height: 162px;
-  height: 163px;
-  height: 164px;
-  height: 165px;
-  height: 166px;
-  height: 167px;
-  height: 168px;
-  height: 169px;
-  height: 170px;
-  height: 171px;
-  height: 172px;
-  height: 173px;
-  height: 174px;
-  height: 175px;
-  height: 176px;
-  height: 177px;
-  height: 178px;
-  height: 179px;
-  height: 180px;
-  height: 181px;
-  height: 182px;
-  height: 183px;
-  height: 184px;
-  height: 185px;
-  height: 186px;
-  height: 187px;
-  height: 188px;
-  height: 189px;
-  height: 190px;
-  height: 191px;
-  height: 192px;
-  height: 193px;
-  height: 194px;
-  height: 195px;
-  height: 196px;
-  height: 197px;
-  height: 198px;
-  height: 199px;
 }
 
 /*------menu------*/
 /*------forms------*/
-/*# sourceMappingURL=style_frf.css.map */
